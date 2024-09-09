@@ -1,0 +1,20 @@
+pkgbase = evm-wallet-git
+	pkgdesc = EVM wallet (and tools).
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1.r2.g17462bf25f990eeb255a2b6831d80e9271d170cd
+	pkgrel = 1
+	url = https://github.com/themartiancompany/evm-wallet
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = nodejs-ethers
+	provides = evm-wallet=0.0.0.0.0.0.0.0.0.0.0.0.1.r2.g17462bf25f990eeb255a2b6831d80e9271d170cd
+	conflicts = evm-wallet
+	source = evm-wallet.tar.gz::https://github.com/themartiancompany/evm-wallet/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = evm-wallet-git
