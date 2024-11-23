@@ -7,8 +7,8 @@ _node='nodejs'
 _os="$( \
   uname \
     -o)"
-_git=false
-_offline=false
+_git='false'
+_offline='false'
 _proj="hip"
 _pkgname=evm-wallet
 pkgname="${_pkgname}-git"
